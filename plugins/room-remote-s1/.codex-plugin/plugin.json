@@ -1,0 +1,28 @@
+{
+  "name": "room-remote-s1",
+  "version": "0.1.1",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "author": {
+    "name": "Celeste Weingartner",
+    "url": "https://github.com/CryptoDragonLady"
+  },
+  "description": "Discover and control Sonos S1 speakers over the local network.",
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "developerName": "Celeste Weingartner",
+    "websiteURL": "https://github.com/CryptoDragonLady/room-remote-s1",
+    "supportURL": "https://github.com/CryptoDragonLady/room-remote-s1/issues",
+    "displayName": "Room Remote for S1",
+    "shortDescription": "Control local Sonos S1 rooms",
+    "longDescription": "Discover Sonos S1 speakers on your local network from the desktop app. See rooms and groups, check what is playing, browse the queue, resume or pause playback, skip tracks, and adjust an individual room’s volume or mute setting. Requires Python 3.9 or newer and access to the speaker network. An independent community plugin.",
+    "category": "Entertainment",
+    "logo": "./assets/speaker.png",
+    "composerIcon": "./assets/speaker.png",
+    "defaultPrompt": [
+      "Find my Sonos S1 speakers.",
+      "What’s playing in the kitchen?",
+      "Set the kitchen speaker to 20 percent."
+    ]
+  }
+}
